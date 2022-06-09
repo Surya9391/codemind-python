@@ -1,14 +1,14 @@
 m=int(input())
 n=int(input())
-Sum=0
-b=0
+sum=0
+ev=0
 for i in range(1,m):
     if(m%i==0):
-        Sum=Sum+i
+        sum=sum+i
 for j in range(1,n):
     if(n%j==0):
-        b=b+j
-if(m==b and n==Sum):
-    print("Amicable")
+        ev=ev+j
+if(sum==n and ev==m):
+    print('Amicable')
 else:
-    print("Not Amicable")
+    print('Not Amicable')
