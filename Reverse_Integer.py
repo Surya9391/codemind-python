@@ -10,5 +10,5 @@ while(n>0):
     n=n//10
 if v==0:
     print(rev)
-else:
+if v==1:
     print(-(rev))
