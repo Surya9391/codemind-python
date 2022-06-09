@@ -9,5 +9,5 @@ def add(n):
 n=int(input())
 t=add(n)
 m=add(t)
-f=add(m)
-print(f)
+z=add(m)
+print(z)
